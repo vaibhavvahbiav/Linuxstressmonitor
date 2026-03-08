@@ -14,7 +14,7 @@ do
 	TEMP=$(cat /sys/class/thermal/thermal_zone0/temp 2>/dev/null)
 	TEMP_C=$(echo "$TEMP/1000" | bc -l)
 
-	echo "=== RAdxA Stress test ==="
+	echo "=== LiNux Stress test ==="
 	echo ""
 	echo "CPU cores stressed : $(nproc)"
 	echo "Temperature : ${TEMP_C} 'C"
